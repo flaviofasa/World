@@ -8,5 +8,5 @@ steps:
     args: ['clean', 'install']
 artifacts:
   objects:
-    location: 'gs://${_BUCKET_NAME}/$REPO_NAME/$TAG_NAME'
+    location: 'gs://${_BUCKET_NAME}/${_GROUP_ID}/${_ARTIFACT_ID}/$TAG_NAME'
     paths: ['target/*.jar']

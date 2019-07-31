@@ -1,6 +1,6 @@
 steps:
   - name: 'ubuntu'
-    args: ['bash', './buildscript/replace_pom_version.sh']
+    args: ['bash', './buildscripts/replace_pom_version.sh']
     env:
      - 'TAG_NAME=$TAG_NAME'
   - name: maven:3.6.1-jdk-12

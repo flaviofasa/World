@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.world</groupId>
     <artifactId>world</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>000-RELEASE</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

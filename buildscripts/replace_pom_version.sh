@@ -1,0 +1,1 @@
+sed -ie "s/000-RELEASE/$TAG_NAME/g" pom.xml

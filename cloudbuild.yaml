@@ -9,4 +9,4 @@ steps:
 artifacts:
   objects:
     location: 'gs://${_BUCKET_NAME}/${_GROUP_ID}/${_ARTIFACT_ID}/$TAG_NAME'
-    paths: ['target/*.jar']
+    paths: ['target/*.jar','pom.xml']
